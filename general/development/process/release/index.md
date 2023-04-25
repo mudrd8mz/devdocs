@@ -148,7 +148,7 @@ Usually on Monday
 | 5. | &#10003; | &#10003; | Notify all registered sys admins, including security notes with CVE identifiers, using the [mailing list server](http://lists.moodle.org/). | Security Officer |
 | 6. | &#10003; |  | Post about the Major release on the [moodle.org News forum](http://moodle.org/news/) | Head of educational solutions |
 | 7. |  | &#10003; | Post about minor releases on the [moodle.org News forum](http://moodle.org/news/) | Platform Manager |
-| 8. | &#10003; |  | Add the next branch code to the `branchesall` admin setting at lang.moodle.org. Review the list of supported versions and update the value of `branchsupported` there eventually, too.  | AMOS Maintainer |
+| 8. | &#10003; |  | Perform the steps described at [HOWTO-MAJOR-RELEASE.txt](https://github.com/moodlehq/moodle-local_amos/blob/main/HOWTO-MAJOR-RELEASE.txt) guidelines.  | AMOS Maintainer |
 | 9. | &#10003; | &#10003; | Verify, 24h after tagging, that https://moodle.org/dev/contributions.php has been updated with new versions. If not, file an urgent `MDLSITE` issue, crons must be running! | Integration Team |
 | 10. | &#10003; |  | For `en` and `de` Moodle Docs, update default redirects and enable email notifications. | Moodle Docs Maintainer |
 | 11. | &#10003; |  | Go through all points listed under Day of release in [New docs version process](./newuserdocs.md). | Community Manager |
