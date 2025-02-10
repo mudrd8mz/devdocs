@@ -173,7 +173,7 @@ See [Coding style#Functions and Methods](../../development/policies/codingstyle/
 - Avoid hard-code texts in the code, always use `get_string()`.
 - Just the English strings should ship with the plugin. All other translations are supposed to be submitted as contributions at [lang.moodle.org](https://lang.moodle.org) once your plugin is approved - see [Translating plugins](https://docs.moodle.org/en/Translating_plugins).
 - Your code must not rely on trailing and leading whitespace in strings.
-- The string file must be considered as pure data file with the syntax `$string[]('id') = 'value';`. No other PHP syntax such as [concatenation](http://php.net/manual/en/language.operators.string.php),  [heredoc and nowdoc](http://php.net/manual/en/language.types.string.php) is supported by the tools that we use when processing your strings (even if it may work in Moodle itself).
+- The string file must be considered as pure data file with the syntax `$string['id'] = 'value';`. No other PHP syntax such as [concatenation](http://php.net/manual/en/language.operators.string.php),  [heredoc and nowdoc](http://php.net/manual/en/language.types.string.php) is supported by the tools that we use when processing your strings (even if it may work in Moodle itself).
 - The English language pack (`lang/en/`) in Moodle does not use "Capitalised Titles".
 
 ### Privacy
